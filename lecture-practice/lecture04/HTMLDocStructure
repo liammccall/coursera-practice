@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Document Structure Practice</title>
+</head>
+<body>
+What's good?
+<p>Paragraph function test.</p>
+<p>Another one, trying some "quotes."</p>
+</body>
+</html>
