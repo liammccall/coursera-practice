@@ -1,0 +1,67 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #302000;
+	box-sizing: border-box;
+}
+
+h2{
+	border-color: #000;
+	border-width: 3px;
+	font-size: 1.2em;
+	float: right;
+}
+
+div{
+	background-color: #707bc2;
+}
+
+#Chicken{
+	background-color: #ff945e;
+}
+
+#Beef{
+	background-color: #ffd75e;
+}
+
+#Pork{
+	background-color: #fff25e;
+}
+
+.row {
+	width: 100%;
+}
+
+.col-xs-4{
+	width: 33.33%;
+}
+
+@media(min-width: 992px;){
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+		margin: 10px;
+	}
+}
+
+@media(min-width: 768px;) and (max-width: 991px;){
+	.col-md-6, .col-md-12{
+		margin: 10px;
+	}
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+}
+
+@media(max-width: 767px;){
+	.col-lg-12{
+		width: 100%;
+		float: left;
+		margin: 10px;
+	}
+}
